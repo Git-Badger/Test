@@ -15,7 +15,7 @@ while (count < Array.Length)
 {
     if (Array[count].Length <= 3)
     {
-        preResult = preResult + Array[count];
+        preResult = preResult + Array[count] + " ";
     }
     count++;
 }
