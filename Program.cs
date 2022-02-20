@@ -7,3 +7,4 @@ string UserInput = "";
 Console.WriteLine("Введите ваш текст сюда:");
 UserInput = Console.ReadLine() ?? "";
 
+string[] Array = UserInput.Split(" ");
