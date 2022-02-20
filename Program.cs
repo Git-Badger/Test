@@ -21,3 +21,10 @@ while (count < Array.Length)
 }
 
 string[] result = preResult.Split(" ");
+Console.WriteLine($"Элементов, длина которых <=3: {result.Length}\nВот они:");
+
+foreach (string r in result)
+{
+    Console.Write(r + " ");
+}
+Console.WriteLine();
